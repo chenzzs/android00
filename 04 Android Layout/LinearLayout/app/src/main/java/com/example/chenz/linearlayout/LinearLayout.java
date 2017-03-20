@@ -1,4 +1,4 @@
-package com.example.chenz.framelayout;
+package com.example.chenz.linearlayout;
 
 import android.os.Bundle;
 
