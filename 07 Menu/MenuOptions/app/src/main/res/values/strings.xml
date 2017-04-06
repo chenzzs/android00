@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MenuOptions</string>
+    <string name="hello">请按menu键!</string>
+    <string name="exit">退出</string>
+    <string name="save">保存</string>
+</resources>
