@@ -50,10 +50,14 @@ public class MainActivity extends AppCompatActivity {
     private DatePickerDialog.OnDateSetListener DateListener = new DatePickerDialog.OnDateSetListener() {
         @Override
         public void onDateSet(DatePicker datePicker,int y,int m,int d){
-            year = y;
-            month = m;
-            day = d;
-            updateDate();
+            if(year>y || (year==y && month>m) || (year==y && month==m && day>=d)) {
+                year = y;
+                month = m;
+                day = d;
+                updateDate();
+            }else {
+                showdate.setText("fault");
+            }
         }
 
         private void updateDate() {
