@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntentReceiverInJava</string>
+    <string name="bound">绑定监听器</string>
+    <string name="relieve">解除绑定监听器</string>
+</resources>

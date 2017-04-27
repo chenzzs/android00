@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IntentReceiver</string>
+    <string name="tend">跳转到另一个Intent</string>
+</resources>
