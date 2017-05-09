@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Snake</string>
+    <string name="authorView">作者信息</string>
+    <string name="help">游戏说明</string>
+    <string name="exit">离开游戏</string>
+    <string name="back">返回</string>
+    <string name="mode_ready"/>
+    <string name="mode_pause"/>
+    <string name="mode_lose_prefix"/>
+    <string name="mode_lose_suffix"/>
+    <string name="snake_layout_text_text"/>
+</resources>

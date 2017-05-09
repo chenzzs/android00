@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    按键盘方向（上下左右）控制小蛇行走，尽量多的屏幕上的吃果子，每次吃完果子，蛇会加长，同时速度加快，不能碰到四周还有自己的身体，否则游戏结束。"
+        android:textSize="26dp"
+        />
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_marginTop="200dp"
+        android:text="@string/back"/>
+</LinearLayout>
